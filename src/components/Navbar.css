@@ -1,0 +1,35 @@
+.Navbar-header{
+    padding-block: 10px;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+.Navbar-header h1 {
+    margin: 8px;
+    font-weight: bold;
+}
+
+.Navbar-header .Nav-link {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.Nav-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nav-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
