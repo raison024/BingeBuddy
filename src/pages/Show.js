@@ -11,7 +11,7 @@ const Show = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const searchMovies = async (title) => {
-    const response = await fetch(`${API_URL}&s=${title}`);
+    const response = await fetch(`${API_URL}&s=${title}&type=series`);
     const data = response.json();
     console.log(data)
     data.then((res) => {
